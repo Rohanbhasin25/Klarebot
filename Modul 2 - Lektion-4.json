@@ -1,0 +1,169 @@
+{
+  "id": "256d3ee9-c542-48a8-a091-36500286e13f",
+  "name": "Modul 2 - Lektion-4",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "Modul2-followup"
+  ],
+  "contexts": [
+    "Modul2-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.DefaultWelcomeIntent-yes-custom.6thconfirm-custom.Modul2-custom-4",
+      "affectedContexts": [
+        {
+          "name": "Modul2-Lektion-4-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "person",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$person",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Alright Lektion 4 it is : Die Nachbarn von Familie Weigel, these are the topics one needs to cover in the fourth lektion :                                                                                                                                                                                                                    1) Verb - sprechen                                                                                                                                                                                                                                                                                                                                                                                                                                                       2) Impersonal - man                                                                                                                                                                                                                                                                                                                                                                                                  3) Prepositon aus                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               4) Email : Describe neighbours"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Nachbarn von Familie ",
+          "userDefined": false
+        },
+        {
+          "text": "Weigel",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        }
+      ],
+      "count": 0,
+      "id": "df057278-ba39-4af0-a071-fb604ce86843",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Neighbours",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fe72d156-ac1d-4aae-a7f4-f857eaa11bcc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Number ",
+          "userDefined": false
+        },
+        {
+          "text": "4",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "098021f5-fb45-4477-9cec-ec420e930b21",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Part ",
+          "userDefined": false
+        },
+        {
+          "text": "4",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "c0214e82-c833-41c9-89d3-52ad2587505a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "4",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "7bf9da8b-29c0-4ec0-9a92-7b4b6e5baeb0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Lektion 4",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f19ce4c-cd92-4164-aa27-6b7619a2fae1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

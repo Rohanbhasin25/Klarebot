@@ -1,0 +1,158 @@
+{
+  "id": "9b2ed7fc-9606-419a-a692-9afd93892982",
+  "name": "Modul 2 - Lektion-2",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "Modul2-followup",
+    "6thconfirm-custom-followup"
+  ],
+  "contexts": [
+    "Modul2-followup",
+    "6thconfirm-custom-followup"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-yes.DefaultWelcomeIntent-yes-custom.6thconfirm-custom.Modul2-custom-2",
+      "affectedContexts": [
+        {
+          "name": "Modul2-Lektion-2-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "ordinal",
+          "dataType": "@sys.ordinal",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$ordinal",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Alright Lektion 2 it is : Ein Besuch, these are the topics one needs to cover in the second lektion :                                                                                                                                                                                                                    1) Verb - mochte                                                                                                                                                                                                                                                                                                                                                                                                                                                        2) Personal pronouns - mir, dir,ihnen                                                                                                                                                                                                                                                                                                                                                                                                  3) Email : visiting family"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Number 2",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "640ca129-cd63-47e5-bb3a-5fdc1ebfc54b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Second",
+          "userDefined": false,
+          "alias": "ordinal",
+          "meta": "@sys.ordinal"
+        }
+      ],
+      "count": 1,
+      "id": "9140dade-c3ec-4dfe-9f4f-8da3f81ea6b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Lektion 2",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "875ce56e-a542-4877-a400-aaf7f9d852bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        }
+      ],
+      "count": 0,
+      "id": "c5035f01-f319-46b1-af15-1ba925ed564b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Visit",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8064671f-47ea-405a-adb2-3d19e9400319",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Besuch",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d929ec99-07c3-4596-8469-4f7159117daf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

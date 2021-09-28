@@ -1,0 +1,331 @@
+{
+  "id": "553740a2-ac1f-4de9-b32b-a2fea03ed819",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Instructor",
+          "dataType": "@Instructor",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "SStart",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "facebook",
+          "condition": "",
+          "imageUrl": "https://ibb.co/VWcYbt4"
+        },
+        {
+          "type": "image",
+          "platform": "telegram",
+          "condition": "",
+          "imageUrl": "https://ibb.co/VWcYbt4"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hi there! Welcome to Klarebot, an AI bot that helps students understands concepts in introductory german for classes 6th to 8th. Would you like to get started ?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "main menu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4d16e204-0ae6-4e2f-bbdd-1b0944da033d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "home",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "723068b2-44e1-42e4-ae90-2e125fe992a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Teach me introductory German",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9966d05b-936a-46ac-bd33-89ab3a96a3b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Speak with German Instructor",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c93ec001-b0b4-4e37-bbc3-5a2711fff6e9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Talk to German Instructor",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "caaa6f64-7e8b-4d7f-a186-3de528221e5e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "just going to say hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0d894d0c-4fcf-4c92-a75e-24c5b6f77e4f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "heya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5b3b2090-2cd8-45b3-84d3-8f920f81445b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8e6f3c34-7833-46c1-bcc9-62efc91d9205",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "howdy",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "997d2c0e-b695-4c05-ad07-f69c5109ab91",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a463f11b-4ab4-4bf7-a2d7-fc3072d65c15",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi there",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3403aa14-8271-462f-b49c-06a1c7461aa2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "greetings",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e981bb7e-fd1c-4663-8ee1-35ca5ff9c494",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hey",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04cbd07b-10ec-462b-8c93-bd80534c78a4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "long time no see",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c8707ba0-db9e-4b39-a3c6-21d2c3d45f98",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "db08e6b9-61ab-4105-8d8a-1b1f816c193b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "lovely day isn't it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3bb1a68e-5659-45f0-9271-b669a61c78a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I greet you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "58a72044-d465-4771-8f6a-d8e5694b1216",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello again",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "edc57956-10b1-448a-8b70-527491c21dd1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7dd920e1-8612-45b8-9d64-b194fdc9a511",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hello there",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "66cbca5a-3974-45d5-ba69-73feadb4e6c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "a good day",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "790a5e04-7409-4e8c-b6eb-86e0fa198b99",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
